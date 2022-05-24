@@ -52,9 +52,11 @@ const lName = "singh";
 
 ReactDOM.render(
   <>
-    <h1>
+    <h1>{`my first name is ${fName} and my last name is ${lName}`}</h1>
+    {/* <h1>my name is {fName + " " + lName}</h1> */}
+    {/* <h1>
       my name is {fName} {lName}
-    </h1>
+    </h1> */}
     <p>my lucky number is {5 + 5}</p>
   </>,
   document.getElementById("root")
